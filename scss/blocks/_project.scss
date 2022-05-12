@@ -1,0 +1,69 @@
+.project {
+    padding-bottom: 150px;
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+    &__heading {
+        width: 350px;
+        margin: 0;
+        font-family: 'Ibarra Real Nova';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+    .btn--project__btn {
+        padding: 17px 35px;
+        margin-left: auto;
+        background-image: none;
+        background-color: white;
+        border: 1px solid #33323D;
+        width: 202px;
+        &:hover {
+            background: #33323D;
+        }
+        &:active {
+            mix-blend-mode: normal;
+            background-color: white;
+            opacity: 0.2;
+        }
+    }
+    .btn__text--project__text {
+        padding: 0;
+        color: #33323D;
+        &:hover {
+            color: transparent;
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .project {
+        padding-bottom: 96px;
+        &__container {
+            padding: 0 40px;
+        }
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .project {
+        padding-bottom: 80px;
+        &__container {
+            flex-direction: column;
+            padding: 0 32px;
+        }
+        &__heading {
+            text-align: center;
+            width: 311px;
+            margin-bottom: 40px;
+        }
+
+        .btn--project__btn {
+            margin-left: 0;
+        }
+    }
+}
