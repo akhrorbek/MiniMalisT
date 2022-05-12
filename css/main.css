@@ -654,7 +654,7 @@ img {
 }
 
 .aboutme__wrapper {
-  width: 350px;
+  width: auto;
   margin-left: 125px;
 }
 
@@ -717,7 +717,7 @@ img {
     padding: 0 40px;
   }
   .aboutme__wrapper {
-    width: 334px;
+    width: auto;
     margin-left: 64px;
   }
 }
@@ -727,6 +727,7 @@ img {
     padding-bottom: 167px;
   }
   .aboutme__container {
+    padding: 0 32px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -741,7 +742,7 @@ img {
     margin-bottom: 32px;
   }
   .aboutme__wrapper {
-    max-width: 311px;
+    max-width: auto;
     margin: 0;
   }
 }
@@ -821,7 +822,7 @@ img {
   }
   .project__heading {
     text-align: center;
-    width: 311px;
+    width: auto;
     margin-bottom: 40px;
   }
   .project .btn--project__btn {
