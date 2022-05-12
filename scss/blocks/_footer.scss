@@ -10,11 +10,23 @@
         display: flex;
         align-items: center;
     }
+    &__logo-link:hover {
+        opacity: 0.8;
+    }
     .navbar--footer__navbar {
         margin-left: 49px;
     }
     .navbar__item-link--footer__navitem-link {
         color: white;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &__social-media {
+        text-decoration: none;
+        &:hover {
+            opacity: 0.8;
+        }
     }
     &__social-media + &__social-media {
         margin-left: 16px;
