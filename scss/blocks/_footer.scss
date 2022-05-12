@@ -6,9 +6,6 @@
         align-items: center;
         justify-content: space-between;
     }
-    &__logo-link {
-        margin-bottom: 40px;
-    }
     &__wrapper {
         display: flex;
         align-items: center;
@@ -38,6 +35,9 @@
         &__container {
             flex-direction: column;
             padding: 0 32px;
+        }
+        &__logo {
+            margin-bottom: 40px;
         }
         &__wrapper {
             flex-direction: column;
